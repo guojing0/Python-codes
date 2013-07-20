@@ -3,7 +3,7 @@
 __all__ = [
     'warner', 'timer','word_count',
     'view', 'greeting','clear',
-    'word_find','length'
+    'word_find','length','get_email_name'
 ]
 
 import time, random
@@ -56,6 +56,10 @@ def word_find(word, filename):
     for line in text:
 	if word in line:
 	    print line
+
+def get_email_name(email):
+    name = email.split('@')[0]
+    print name
 
 #It's a function to "develop" myself,it's lispy.
 car  = lambda x: x[0]
