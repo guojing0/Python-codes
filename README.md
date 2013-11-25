@@ -1,4 +1,4 @@
-my_python
+python-projects
 =========
 
 Some Python projects, and sometimes I may update some codes I wrote. But recently I learned Scheme.
