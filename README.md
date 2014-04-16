@@ -1,12 +1,13 @@
-python-projects
-=========
+## PythonCodes
 
-Some Python projects, and sometimes I may update some codes I wrote. But recently I learned Scheme.
+### Beautiful Python codes.
 
 frequency.py - Calculate the letter frequency of a text.
 
-unity.py - Some codes may help me to build.
+utilities.py - Some codes may help me to build.
 
 view.py - "Read" a text.
 
 /Latin - For learning lingua Latina.
+
+prob.py - All about probability.
