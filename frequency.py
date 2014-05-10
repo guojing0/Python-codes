@@ -6,19 +6,19 @@
 
 words = file('source.txt').read().lower()
 
-alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm', 'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
+alphabet = ['a', 'b', 'c', 'd', 'e', 'f', 'g', 'h', 'i', 'j', 'k', 'l', 'm',
+            'n', 'o', 'p', 'q', 'r', 's', 't', 'u', 'v', 'w', 'x', 'y', 'z']
 
 def run():
     material = ''.join(words.split())
     leng = len(material) * 1.0
 
     for letter in alphabet:
-	print '%s %.2f%i' % (letter, (material.count(letter)/leng*100))
+	print '%s %.3f' % (letter, (material.count(letter)/leng*100))
 
 if __name__ == '__main__':
     print "Jing Guo code the program, it's Ver 1.0, you are free to use."
     run()
-
 
 # Wikipedia link: http://en.wikipedia.org/wiki/Letter_frequency
 # You would see the result like this:
